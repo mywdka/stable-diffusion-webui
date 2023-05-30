@@ -48,3 +48,19 @@ export TORCH_COMMAND="pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 t
 ###########################################
 
 export SADTALKER_CHECKPOINTS=models/SadTalker/checkpoints
+
+# Creates desktop icon for the user
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+if [ ! -e "~/.local/share/applications/stable-diffusion.desktop" ]; then
+    echo $SCRIPT_DIR/webui.sh 
+    cat > ~/.local/share/applications/stable-diffusion.desktop << EOF
+[Desktop Entry]
+Version=1.0
+Name=Stable Diffusion
+Comment=Stable Diffusion is a generative AI model to generate images and videos
+Type=Application
+Terminal=true
+Icon=${SCRIPT_DIR}/app-icon.png
+Exec=${SCRIPT_DIR}/webui.sh
+EOF
+fi
