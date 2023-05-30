@@ -4,6 +4,18 @@
 [submodule "extensions/stable-diffusion-webui-images-browser"]
 	path = extensions/stable-diffusion-webui-images-browser
 	url = https://github.com/yfszzx/stable-diffusion-webui-images-browser
-[submodule "extensions/sd-webuit-controlnet"]
-	path = extensions/sd-webuit-controlnet
+[submodule "extensions/sd-webui-controlnet"]
+	path = extensions/sd-webui-controlnet
 	url = https://github.com/Mikubill/sd-webui-controlnet.git
+[submodule "extensions/rembg"]
+	path = extensions/rembg
+	url = https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg.git
+[submodule "extensions/ultimate-upscale-for-automatic1111"]
+	path = extensions/ultimate-upscale-for-automatic1111
+	url = https://github.com/Coyote-A/ultimate-upscale-for-automatic1111
+[submodule "extensions/stable-diffusion-webui-pixelization"]
+	path = extensions/stable-diffusion-webui-pixelization
+	url = https://github.com/AUTOMATIC1111/stable-diffusion-webui-pixelization.git
+[submodule "extensions/deforum"]
+	path = extensions/deforum
+	url = https://github.com/deforum-art/sd-webui-deforum
