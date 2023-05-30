@@ -1,3 +1,9 @@
 [submodule "extensions/SadTalker"]
 	path = extensions/SadTalker
 	url = https://github.com/OpenTalker/SadTalker.git
+[submodule "extensions/stable-diffusion-webui-images-browser"]
+	path = extensions/stable-diffusion-webui-images-browser
+	url = https://github.com/yfszzx/stable-diffusion-webui-images-browser
+[submodule "extensions/sd-webuit-controlnet"]
+	path = extensions/sd-webuit-controlnet
+	url = https://github.com/Mikubill/sd-webui-controlnet.git
