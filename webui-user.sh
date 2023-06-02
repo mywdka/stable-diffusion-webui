@@ -4,10 +4,10 @@
 #########################################################
 
 # Install directory without trailing slash
-#install_dir="/home/$(whoami)"
+install_dir="/home/$(whoami)/MachineLearning"
 
 # Name of the subdirectory
-#clone_dir="stable-diffusion-webui"
+clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
 export COMMANDLINE_ARGS="--medvram --opt-split-attention --disable-safe-unpickle --xformers --theme=dark"
