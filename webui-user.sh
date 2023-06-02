@@ -67,3 +67,4 @@ fi
 
 if [ ! -e "~/Desktop/stable-diffusion.desktop" ]; then
     cp ~/.local/share/applications/stable-diffusion.desktop ~/Desktop
+fi
