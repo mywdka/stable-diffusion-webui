@@ -65,3 +65,6 @@ Icon=${SCRIPT_DIR}/app-icon.png
 Exec=${SCRIPT_DIR}/webui.sh
 EOF
 fi
+
+if [ ! -e "~/Desktop/stable-diffusion.desktop" ]; then
+    cp ~/.local/share/applications/stable-diffusion.desktop ~/Desktop
