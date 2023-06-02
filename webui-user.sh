@@ -65,6 +65,17 @@ Exec=${SCRIPT_DIR}/webui.sh
 EOF
 fi
 
+# yea yea make a loop
 if [ ! -e "~/Desktop/stable-diffusion.desktop" ]; then
-    cp ~/.local/share/applications/stable-diffusion.desktop ~/Desktop
+    echo $SCRIPT_DIR/webui.sh 
+    cat > ~/Desktop/stable-diffusion.desktop << EOF
+[Desktop Entry]
+Version=1.0
+Name=Stable Diffusion
+Comment=Stable Diffusion is a generative AI model to generate images and videos
+Type=Application
+Terminal=true
+Icon=${SCRIPT_DIR}/app-icon.png
+Exec=${SCRIPT_DIR}/webui.sh
+EOF
 fi
