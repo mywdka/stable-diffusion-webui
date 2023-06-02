@@ -23,13 +23,11 @@ __pycache__
 /webui-user.bat
 /webui-user.sh
 /interrogate
-/user.css
 /.idea
 notification.mp3
 /SwinIR
 /textual_inversion
 .vscode
-#/extensions
 /extensions/*.pth
 /test/stdout.txt
 /test/stderr.txt
