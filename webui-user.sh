@@ -10,7 +10,7 @@ install_dir="/home/$(whoami)/MachineLearning"
 clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-export COMMANDLINE_ARGS="--medvram --opt-split-attention --disable-safe-unpickle --xformers --theme=dark --autolaunch"
+export COMMANDLINE_ARGS="--medvram --opt-split-attention --opt-sdp-attention --no-half-vae --disable-safe-unpickle --xformers --theme=dark --autolaunch"
 
 # python3 executable
 #python_cmd="python3"
